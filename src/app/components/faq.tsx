@@ -60,12 +60,12 @@ export function FAQ() {
           </p>
         </div>
 
-        <Accordion type="single" collapsible className="space-y-4">
+        <Accordion type="single" collapsible className="space-y-4 pb-4">
           {faqs.map((faq, idx) => (
             <AccordionItem
               key={idx}
               value={`item-${idx}`}
-              className="border border-gray-200 rounded-lg px-6 hover:border-[var(--sky-blue)] transition-colors"
+              className="border border-gray-200 rounded-lg px-6 hover:border-[var(--sky-blue)] transition-colors last:border-b last:border-b-gray-200"
             >
               <AccordionTrigger 
                 className="text-left hover:text-[var(--sky-blue)] transition-colors py-4"

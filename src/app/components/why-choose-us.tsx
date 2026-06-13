@@ -54,7 +54,7 @@ export function WhyChooseUs() {
               key={idx}
               className="flex flex-col items-center text-center group hover:transform hover:scale-105 transition-all duration-300"
             >
-              <div className="w-20 h-20 rounded-full bg-[var(--sky-blue)] bg-opacity-10 flex items-center justify-center mb-4 group-hover:bg-opacity-100 transition-all duration-300">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4 transition-all duration-300" style={{ backgroundColor: 'rgba(74, 174, 232, 0.1)' }} onMouseEnter={e => e.currentTarget.style.backgroundColor = 'var(--sky-blue)'} onMouseLeave={e => e.currentTarget.style.backgroundColor = 'rgba(74, 174, 232, 0.1)'}>
                 <feature.icon className="w-10 h-10 text-[var(--sky-blue)] group-hover:text-white transition-colors duration-300" />
               </div>
               <h3 

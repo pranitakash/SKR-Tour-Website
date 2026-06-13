@@ -61,7 +61,7 @@ export function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-[var(--sky-blue)] bg-opacity-10 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(74, 174, 232, 0.1)' }}>
                   <Phone className="w-6 h-6 text-[var(--sky-blue)]" />
                 </div>
                 <div>
@@ -81,7 +81,7 @@ export function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-[var(--sky-blue)] bg-opacity-10 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(74, 174, 232, 0.1)' }}>
                   <MessageCircle className="w-6 h-6 text-[var(--sky-blue)]" />
                 </div>
                 <div>
@@ -98,7 +98,7 @@ export function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-[var(--sky-blue)] bg-opacity-10 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(74, 174, 232, 0.1)' }}>
                   <Mail className="w-6 h-6 text-[var(--sky-blue)]" />
                 </div>
                 <div>
@@ -118,7 +118,7 @@ export function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-[var(--sky-blue)] bg-opacity-10 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(74, 174, 232, 0.1)' }}>
                   <MapPin className="w-6 h-6 text-[var(--sky-blue)]" />
                 </div>
                 <div>
